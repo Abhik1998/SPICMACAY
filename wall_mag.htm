@@ -1,0 +1,28 @@
+<div class="container">
+	<center><div class="mainul"><div class="mainheading">Wall Magazine</div></div></center>
+	<br />
+	<p class="gallery-content animate-bottom">The pursuit of excellence in expression by SPIC MACAY IIT Roorkee Chapter gave birth to the pristine tradition of a wall magazine. A reaffirmation of the society`s belief in the vastness and richness of the Indian heritage, the magazine is made available to be viewed in the Central Library. It is released as the dedicated handiwork of the SPIC MACAY team.The present wall magazine of 2014 is based on Indian Classical Dance forms.</p>
+	<div class="container animate-bottom"><div class="col-lg-2 col-md-1 col-sm-0" /><div class="col-lg-8 col-md-10 col-sm-12"><div class="border"><img src="./images/wallmag.jpg" class="img" /></div></div></div>
+
+	<p class="gallery-content animate-bottom"> True to the group`s objectives,this magazine highlights the supremacy of the premier Indian culture. An article discovers the real meaning of belonging to a country like India and explores the phenomenon of 'unity in diversity'. These and many other heart warming features render an unexplicable uniqueness to the wall magazine which touches the inner conscience while tickling the aesthetic sense of the reader. A sincere effort at dusting clear some forgotten facts, this magazine is sure to remain etched in the readers` minds forever.</p>
+</div>
+
+		<div id="myModal" class="modal animate-bottom">
+		  <span class="close">&times;</span>
+		  <div class="modal-content" id="img01"></div>
+		  <div id="caption"></div>
+		</div>
+
+
+		<script>
+			$('.img').click(function() {
+				var modal = document.getElementById('myModal');
+		   		modal.style.display = "block";
+				var ia = $(this).attr("src");
+				$( "#img01" ).html( '<div class="col-lg-0 col-sm-0"></div><img class="js-modal-image img01 col-lg-3 col-sm-8" src="'+ia+'" />' );
+				var span = document.getElementsByClassName("modal")[0];
+				span.onclick = function() { 
+					modal.style.display = "none";
+				}
+			});
+		</script>

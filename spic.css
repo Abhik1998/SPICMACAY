@@ -1,0 +1,229 @@
+@font-face {
+   font-family: LithosPro-Regular;
+   src: url('./fonts/LithosPro-Regular.otf');
+}
+body {
+  text-align: justify;
+  margin: 10px;
+  font-size: 23px;
+  font-style: normal;
+  font-variant: traditional;
+  font-weight: 500;
+  line-height: 25px;
+  font-family: Josefin Slab;
+  margin: 0;
+}
+p {
+  margin: 15px 0px;
+}
+#myBtn {
+  display: none;
+  position: fixed;
+  right: 0;
+  left: 0;
+  margin: auto;
+  bottom: 5%;
+  z-index: 20;
+  border: none;
+  outline: none;
+  background-color: #4d3300;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 40px 0px;
+  width: 60px;
+}
+.modal-backdrop {
+  z-index: 0;
+}
+#myBtn:hover {
+  background-color: #555;
+  display: block;
+}
+body {
+  background-color: #ffffcc;
+  background-blend-mode:color-dodge;
+  font-size: 20px;
+  font-weight: 500;
+  min-width: 600px;
+}
+
+@media screen and (max-width: 600px) and (min-width: 320px) {
+    body {
+         zoom: 60%;
+    }
+}
+body.modal-open {
+  padding-right: 0px !important;
+}
+#header {
+  background-blend-mode:lighten;
+  background-size: cover;
+  margin: 0%;
+  border-bottom: 5px solid;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-color: #4d3300;
+  align-content: center;
+  align-items: center;
+  padding: 10px 0px;
+  padding-bottom: 0px;
+}
+#logo {
+  padding-bottom: 15px;
+  filter: contrast(420%) brightness(100%);
+}
+#chapter {
+  height: 5%;
+  left: 5%;
+}
+hr {
+  margin: 5px auto 2px auto;
+  width: 65%;
+  background-color: #4d3300;
+  height: .2em;
+  border-radius: 5px;
+}
+#frm {
+  position: absolute;
+  top: 0px;
+  background-color: black;
+  color: white;
+  width: 100%;
+  background-size: cover;
+}
+.but_text {
+  border-radius: 0px 0px;
+  font-family: LithosPro-Regular;
+}
+a.but_text {
+  color: white;
+  background-color: #4d3300;
+  cursor: pointer;
+}
+a.but_text:hover {
+  color: red;
+  box-shadow:inset 2px 2px 12px 12px #4d3300;
+  background-color: white;
+}
+a.but_text:active {
+  color: red;
+  background-color: white;
+}
+.nav .open > a {
+  background-color: #4d3300;
+  border-color: #337ab7;
+}
+.button {
+  background-color: #4d3300;
+  border-radius: 0px;
+}
+.gapbutton {
+  margin: 2px 10px;
+}
+.menu_div {
+  background-color: #cc6600;
+  border-radius: 10px;
+  padding: 0px;
+  margin: 40px 0px;
+  border: 10px solid;
+  border-color: #cc6600 #fc7806;
+}
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 2px;
+    font-size: 16px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1000;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    color: red;
+    background-color: #ffffff;
+}
+.line {
+  position: relative;
+  background-color: white;
+  top:10px;
+  height: 5px;
+  width: 100%;
+  background-size: cover;
+}
+#b_body {
+  padding: 0px 0px 0px 20px;
+  margin: 20px 0px;
+}
+.body {
+  background-color: #ffffff;
+  border-left: 5px solid;
+  border-top: 5px solid;
+  border-bottom: 5px solid;
+  border-radius: 15px;
+  border-color: #4d3300;
+  padding: 15px;
+}
+.middle {
+  padding: 0px;
+}
+.bottom {
+  width:100%;
+  bottom: 10px;
+}
+.fullimg {
+  width: 100%;
+}
+.modal-backdrop {
+    position: relative;
+}
+.modal-open {
+    overflow: visible;
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
+
+#myDiv {
+  display: none;
+  text-align: center;
+}

@@ -1,0 +1,59 @@
+<div class="container" id="about">
+	<center><div class="mainul"><div class="mainheading">About Us</div></div></center>
+	<br />
+	<div class="heading animate-bottom">The Logo</div><hr class="head animate-bottom" />
+	<div class="container animate-bottom">
+		<div class="col-lg-2 col-md-3 col-sm-3 col-xs-4"><img src="./images/about/eye.png" class="img" title="spic macay logo" /></div>
+		<div>
+			<p>The symbol of SPIC MACAY is the "EYE" which represents Lord Shiva's third eye. According to Hindu mythology Parvati the consort of Lord Shiva playfully once blindfolded Him which clouded the world with profound darkness of ignorance and evil. The benevolent Lord then graced the world with bliss of knowledge and wisdom, opening is third eye on his forehead. This reveals one has to close his eyes to this materialistic and phony world in order to awaken the spiritual light from within.</p>
+		</div>
+	</div>
+	<div class="heading animate-bottom">Origin</div><hr class="head animate-bottom" />	
+	<div class="container animate-bottom">
+		<div>
+			<div class="col-lg-4 col-md-6 col-sm-7 col-xs-7" id="rightalign"><img src="./images/about/origin.jpg" class="img" title="origin of the movement" /></div>
+			<p>The “big bang” of SPIC MACAY came in 1972 at a concert of Ustad Aminuddin Dagar and Ustad Zia Fariduddin Dagar at the Brooklyn Academy of Music in New York. The idea took a more defined direction in 1977 in India. In early 1978, a concert of the Dagar Bandhu, was held at IIT Delhi. In 1979, a two day programme again held at IIT Delhi of Ustad Bismillah Khan, Dagar Bandhu, Ustad Amjad Khan and Ustad Shahid Parvez. It was this in programme that the name SPIC MACAY was launched and the aim expressed was not to fight westernization but the process of deculturisation.</p>
+			<p>1986 saw the introduction of folk arts and crafts into the age old guru-shishya tradition. This was the year that the first annual convention was held at Hyderabad. In 1988 the first programme was conducted abroad: Pandit Jasraj sang at the University Of Connecticut at Harford.Virasat, a festival comprising performances, workshops in folk, classical arts, literature, theatre, cinema, yoga and other areas of our heritage was launched for the first time in Dehradun in the year 1995. Our Chapter was started in 1985 in the erstwhile University of Roorkee.</p>
+		</div>
+	</div>
+	<div class="heading animate-bottom">The Essence</div><hr class="head animate-bottom" />		
+	<div class="container animate-bottom">
+		<div class="col-lg-6 col-md-8"><img src="./images/about/essense.jpg" class="img" title="value-based learning" /></div>
+		<div>
+			<p>A priceless cultural heritage rooted in what is essentially Indian. SPIC MACAY seeks to conserve and promote an awareness of the rich and heterogeneous cultural tapestry amongst the youth and the country through focus on the classical arts, with their attendant legends, rituals, mythology and philosophy and to facilitate an awareness of their deeper and subtler values.</p>
+			<p>The pulsating and dyamic vitality of the young person. The movement incorporates this vitality to cajole them into being custodians od what is actually their birthright, namely their heritage, roots and identity. It seeks to promote thought and a genuine spirit of enquiry into the young. A solid value-based education, which involves the absorption of aesthtics and spirituality in an increasingly, technical , mundane, and competitive world. Thus it's work is educational in spirit and character and locates itself in educational institutions only.</p>
+			<p>
+				The spirit of 'Nishkama Karma' (service without expectation of rewards). Inculcating this is one of the main aims of SPIC MACAY.</p>
+		</div>
+	</div>
+	<div class="heading animate-bottom">Working</div><hr class="head animate-bottom" />
+	<div class="container animate-bottom">
+		<div>
+			<p>"SPIC MACAY" has a central core-group based in Delhi. Chapters have been established not only in the larger cities, but also in many small towns. They function in liaison with the central group and have their office bearers who run them according to the constitution of the society. Schools and colleges have in turn formed sub-chapters which interact with the local chapter of the particular city/town.</p>
+		</div>
+		<div class="container animate-bottom"><div class="col-lg-2 col-md-1 col-sm-0" /><div class="col-lg-8 col-md-10 col-sm-12"><img src="./images/about/us.jpg" class="img galleryimg" title="IIT Roorkee volunteers" /></div></div></div>
+		<div>
+		<p>SPIC MACAY IIT Roorkee chapter is managed by group of students who work endlessly to spread it's message not only in the campus but also in neighboring institutions. Quite naturally, the organized programs are amazingly popular and well attended by both the students and faculty. It is purely funded by voluntary donations and sponsorships.</p>
+		<p>The regular meetings held every week tend to be very lively and interactive with active participation from all the students. All students irrespective of their background share a very strong bond amongst them and are proud to call them as part of "SPIC MACAY family". For better management, we have divided our group into different cells such as Accommodation, Finance, Publicity, Media, Public Relations, Event Management, Web Designing.</p>
+		</div>
+	</div>
+</div>
+<div id="myModal" class="modal animate-bottom">
+		  <span class="close">&times;</span>
+		  <div class="modal-content" id="img01"></div>
+		  <div id="caption"></div>
+		</div>
+
+
+		<script>
+			$('.img').click(function() {
+				var modal = document.getElementById('myModal');
+		   		modal.style.display = "block";
+				var ia = $(this).attr("src");
+				$( "#img01" ).html( '<div class="col-lg-0 col-sm-0"></div><img class="js-modal-image img01 col-lg-3 col-sm-8" src="'+ia+'" />' );
+				var span = document.getElementsByClassName("modal")[0];
+				span.onclick = function() { 
+					modal.style.display = "none";
+				}
+			});
+		</script>

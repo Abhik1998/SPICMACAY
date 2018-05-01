@@ -1,0 +1,139 @@
+@font-face {
+   font-family: LithosPro-Black;
+   src: url('./fonts/LithosPro-Black.otf');
+}
+.quote {
+    font: 25px "Champagne & Limousines Bold";
+    font-weight: 600;
+    padding-top: 15px;
+    padding-left: 50px;
+    font-family: LithosPro-Black;
+}
+.carousel {
+    margin-top: 20px;
+}
+.contents {
+    padding: 15px;
+}
+.img {
+    border: 3px solid;
+    border-color: red;
+    width: 100%;
+    cursor: pointer;
+}
+.container {
+    width: 100%;
+}
+.heading {
+    display: block;
+    font: 35px "dobra medium";
+    width: auto;
+    padding-left: 15px;
+    width: 100%;
+    font-family: LithosPro-Regular;
+    padding-top: 10px;
+}
+.mainheading {
+    font: 50px "Champagne & Limousines Bold";
+    font-weight: 800;
+    font-family: LithosPro-Black;
+}
+.mainul {
+    font-size: 40px;
+    text-decoration: double underline;
+}
+.head {
+    width: 90%;
+    background-color: black;
+    margin-left: 10%;
+    height: .1em;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+#rightalign {
+    float: right;
+}
+.galleryimg {
+    margin: 3.5px 2.5px;
+}
+.gallery-content {
+    margin-top: 15px;
+}
+.leftcontent {
+    margin-left: 30px;
+}
+.iitroorkee {
+    padding: 20px 50px;
+}
+.teamheading {
+    border-bottom: 2px solid;
+    border-top: 2px solid;
+    margin-top: 50px;
+}
+.name {
+    float: left;
+    font-size: 30px;
+    font-weight: 600;
+}
+.foto {
+    float: right;
+    border: 1px solid black;
+}
+.photo {    
+    border: 1px solid red;
+    width: 100px;
+}
+.entry {
+    padding-top: 40px;
+    margin: auto;
+}
+#imageContainer {
+    margin:30px 0px;
+}
+.js-button {
+    padding: 0px;
+}
+.links {
+    margin: 0 0 0 30px;
+}
+
+
+
+#myModal {
+    position: fixed;
+    height: 100%;
+}
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#myImg:hover {opacity: 0.7;}
+.img01 {
+    width: 100%;
+    position: absolute;
+    border: 5px solid grey;
+    padding: 0px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+.img-circle {
+    border-radius: 50%;
+    height: 100px;
+    margin-top: 10px;
+    width: auto;
+}
+

@@ -1,0 +1,33 @@
+.panel-group {
+	margin: 20px 10px;
+}
+.headline, .headline:active, .headline:visited, .headline:focus {
+	width: 100%;
+    cursor: pointer;
+}
+.config {
+	margin: 0px;
+    padding: 5px 20px;	
+}
+.headline {
+	margin: 0px;
+    padding: 5px 20px;
+}
+.eventhead {
+	border: none;
+}
+.date {
+	margin: auto;
+	float: left;
+	width: 110px;
+	text-align: left;
+}
+.topic {
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+.place {
+	float: right;
+	width: 150px;
+	text-align: right;
+}
